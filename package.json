@@ -1,0 +1,22 @@
+{
+  "name": "react-native-android-shortcut-icon",
+  "version": "1.0.0",
+  "description": "A React Native module for create shorcut icon in Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimamyscreen/react-native-android-shortcut-icon.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "bridge",
+    "Android",
+    "module"
+  ],
+  "author": "nima-yasser",
+  "license": "MIT"
+}
