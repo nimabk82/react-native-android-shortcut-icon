@@ -4,8 +4,19 @@
      npm i --save nimamyscreen/react-native-android-shortcut-icon
      react-native link
      
+   add this line to app/build.gradle
+     ```compile project(':react-native-android-shortcut-icon')```
+   and also add this to MainApplication
+   ```import com.nima.rnShortcutIcon.ShortcutIconPackage;
+    @Override
+    protected List<ReactPackage> getPackages() {
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+          new ShortcutIconPackage()  <--- This Line
+      );
+    }
+   ````
    add following changes to manifest
-   
 ```       
        <manifest xmlns:android="http://schemas.android.com/apk/res/android"
             package="com.reacttestapp"
