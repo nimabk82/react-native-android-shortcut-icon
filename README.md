@@ -5,7 +5,7 @@
      react-native link
      
    add this line to app/build.gradle
-     ```compile project(':react-native-android-shortcut-icon')```
+   ```compile project(':react-native-android-shortcut-icon')```
    and also add this to MainApplication
    ```
    import com.nima.rnShortcutIcon.ShortcutIconPackage;
