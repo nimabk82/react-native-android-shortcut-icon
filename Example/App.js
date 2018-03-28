@@ -22,7 +22,7 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
     componentWillMount(){
-        ShortcutIconModule.ShortcutIcon('shahin', 1086);
+        ShortcutIconModule.createShortcut('ghasem', 1086);
     }
 
   render() {
